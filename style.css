@@ -1,0 +1,669 @@
+body {
+  /*VDL-V7Mincho L*/
+
+  font-family: vdl-v7mincho, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.v73{
+  font-family: vdl-v7mincho, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.v75{
+  font-family: vdl-v7mincho, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.v77{
+  font-family: vdl-v7mincho, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.v79{
+  font-family: vdl-v7mincho, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+h1{
+  font-size: 60px;
+}
+#mainbody{
+  background: rgb(255,203,0);
+  background: linear-gradient(69deg, rgba(255,203,0,1) 0%, rgba(255,161,161,1) 100%)fixed;
+}
+#visualbody{
+  background: rgb(34,195,43);
+  background: linear-gradient(299deg, rgba(34,195,43,1) 0%, rgba(45,156,253,1) 100%)fixed;}
+  #soundbody{
+    background: rgb(108,34,195);
+    background: linear-gradient(299deg, rgba(108,34,195,1) 0%, rgba(45,138,253,1) 100%)fixed;
+  }
+  #devbody{
+    background: rgb(163,7,7);
+    background: linear-gradient(299deg, rgba(163,7,7,1) 0%, rgba(168,101,164,1) 100%);
+  }
+  .lighter{
+    font-weight: lighter;
+  }
+  .menu{
+    list-style: none;
+    margin-top:15px;
+    font-size : 16px;
+    height : 35px;
+    display: block;
+    float: right;
+    width: 17%;
+    text-align: center;
+    font-weight: normal;
+  }
+  .menu a{
+    transition: transform 0.3s,opacity 0.3s;
+  }
+  .menu a:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  #mnbox a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .toolsoption{
+    display: block;
+    height: 250px;
+  }
+  .line{
+    float: right;
+    width: 0.5px;
+    height : 18px;
+    margin-top:15px;
+    background-color: black;
+    display: block;
+  }
+  #mnbox{
+    background: white;
+    width: 100%;
+  }
+  .sc{
+    font-weight: lighter;
+  }
+  h1{
+    padding-top: 20px;
+  }
+  #headbox1{
+    height: 140px;
+    color: white;
+    text-align: center;
+  }
+  .bios{
+    background: rgba(255,255,255,0.6);
+    border-radius : 10px 10px 0 0 ;
+  }
+  .bios li{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgba(0,0,0,0.6);
+  }
+  .active {
+    border-bottom: gray solid;
+    font-weight: bold;
+    color:#53d18e;
+  }
+
+
+  #swbox{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .swhalf{
+    width: 450px;
+    float: left;
+    margin: 20px auto;
+    display: block;
+  }
+  .sws {
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+    height: 240px;
+  }
+  .msctools{
+    display: block;
+  }
+
+  .msws {
+    float: left;
+    margin: 10px auto;
+    display: block;
+    max-width: 100%;
+    height: 190px;
+    width: 50%;
+  }
+  .swico{
+    width: 120px;
+    max-width: 900px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    text-align: center;
+  }
+  .swi{
+    width: 120px;
+    max-width: 900px;
+    display: block;
+    margin: 10px auto;
+    filter: drop-shadow(1px 1px 3px #00000090);
+    text-align: center;
+  }
+  .swscpt{
+    text-align: center;
+  }
+  .swscpt p{
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .underline{
+    border-bottom: 0.5px solid;
+    margin-bottom: 10px;
+  }
+  .underlineh{
+    border-bottom: 0.5px solid;
+    margin-bottom: 10px;
+    display: none;
+  }
+  .pflinks{
+    text-align: center;
+  }
+  .pfs{
+    max-width: 900px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: lighter;
+    color: #00000090;
+  }
+  .ifs{
+    width: 450px;
+    float: left;
+  }
+  .ifscapt{
+    width: 450px;
+    float: left;
+  }
+  .ifscapt-item{
+    display: block;
+    width: 450px;
+    height: 257;
+  }
+  .im900{
+    max-width: 900px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    text-align: center;
+  }
+  .im300{
+    max-width: calc(100%/3);
+    float: left;
+    display: block;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+  }
+  .im450{
+    width: calc(100%/2);
+    float: left;
+    display: block;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+  }
+  #ft{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    height: 40px;
+    background: #00000030;
+    display: block;
+    border-radius : 0 0 10px 10px;
+  }
+  #ft a{
+    text-decoration: none;
+    color: inherit;
+  }
+  #ft strong{
+    float: left;
+  }
+  .thin {float: left;
+    font-weight: lighter;
+  }
+  .thin2{
+    float: right;
+    font-weight: lighter;
+  }
+  .ftc{
+    display: block;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .youtube {
+    position: relative;
+    width: 100%;
+  }
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* Sound Works */
+  .jcblock{
+    float: left;
+  }
+  .captionblock small{
+    font-weight: lighter;
+  }
+  .captionblock p{
+    font-weight: 400;
+  }
+  .captionblock h4{
+    line-height: 20px;
+    font-weight: bold;
+  }
+  .captionblock{
+    float: left;
+    margin-top: 5px;
+  }
+  .dsc{
+    height: 100px;
+  }
+  .langs{
+    height: 55px;
+  }
+  .langs h4{
+    width: 60px;
+  }
+  .langs p{
+    float: left;
+    width: 590px;
+  }
+  .langcap span{
+    font-weight: lighter;
+  }
+  /*dev Works*/
+  .prg-html{
+    width:75%;
+    background: linear-gradient(90deg, rgba(168,101,164,1) 0%, rgba(163,7,7,1) 100%);
+  }
+  .prg-css{
+    width: 70%;
+    background: linear-gradient(90deg, rgba(168,101,164,1) 0%, rgba(163,7,7,1) 100%);
+  }
+  .prg-php{
+    width:65%;
+    background: linear-gradient(90deg, rgba(168,101,164,1) 0%, rgba(163,7,7,1) 100%);
+  }
+  .prg-js{
+    width:55%;
+    background: linear-gradient(90deg, rgba(168,101,164,1) 0%, rgba(163,7,7,1) 100%);
+  }
+  .prg-sql{
+    width:40%;
+    background: linear-gradient(90deg, rgba(168,101,164,1) 0%, rgba(163,7,7,1) 100%);
+  }
+  .prg-jq{
+    width: 50%;
+    background: linear-gradient(90deg, rgba(168,101,164,1) 0%, rgba(163,7,7,1) 100%);
+  }
+  .prg-aws{
+    width: 20%;
+background: linear-gradient(274deg, rgba(99,179,247,1) 0%, rgba(0,97,179,1) 100%);
+  }
+  .prg-lrv{
+    width: 30%;
+    background: linear-gradient(274deg, rgba(99,179,247,1) 0%, rgba(0,97,179,1) 100%);
+  }
+  .prg-node{
+    width: 15%;
+    background: linear-gradient(274deg, rgba(99,179,247,1) 0%, rgba(0,97,179,1) 100%);
+  }
+  .sites{
+    margin: 10px 0;
+  }
+  .sites a{
+    font-size: 16px;
+    transition: transform 0.3s,opacity 0.3s;
+    text-decoration: none;
+    color: inherit;
+  }
+  .sites a:hover{
+    text-decoration: none;
+    color: inherit;
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+  .speci li{
+    font-size: 14px;
+  }
+.sites img{
+  float: left;
+  padding: 10px;
+  width: 50%;
+  filter: drop-shadow(2px 2px 2px #00000070);
+}
+.sites.first img{
+  float: left;
+  padding: 10px;
+  width: 100%;
+  filter: drop-shadow(2px 2px 2px #00000070);
+}
+.prv{
+  display: block;
+  float: left;
+  width: 25%;
+}
+.adv img{
+  width: 100%;
+  float: none;
+}
+
+.rh {
+  float: left;
+  max-width: 50%;
+  filter: drop-shadow(2px 2px 2px #00000070);
+}
+.rh {
+  height: 100%;
+}
+@media screen and (max-width:767px){
+  .sites img{
+    width: 100%;
+  }
+  .prv{
+    display: block;
+    float: left;
+    width: 50%;
+  }
+}
+  @media screen and (max-width:999px){
+    .dsc{
+      height: 200px;
+    }
+  }
+  @media screen and (max-width:999px){
+    .menu{
+      width: 24.8%;
+      list-style: none;
+      margin-top:0px;
+      padding-top:15px;
+      font-size : 16px;
+      height : 70px;
+      display: block;
+      float: right;
+      text-align: center;
+      font-weight: normal;
+    }
+    h1{
+      padding-top: 10px;
+    }
+    #mnbox{
+      height: 70px;
+    }
+    .line{
+      height: 40px;
+    }
+    #ft{
+      height: 70px;
+      font-size: 11px;
+      display: block;
+    }
+    .thin{
+      float: none;
+      margin-top: -6px;
+
+    }
+    .thin2{
+      margin-top: -7px;
+      float: none;
+      display: inline;
+      text-align: center;
+      font-weight: lighter;
+    }
+    #ft strong{
+      margin-top: -6px;
+
+      float: none;
+    }
+    .sws{
+      display: block;
+    }
+    #swbox{
+      width :480px;
+    }
+    .swhalf{
+      float: left;
+      max-width :50%;
+      margin: 0 0;
+    }
+    .im900{
+      width :100%;
+    }
+    .pfs{
+      width: inherit;
+    }
+    .ifs{
+      width: 480px;
+    }
+    .youtube {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .swscpt{
+      display: block;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .swscpt p{
+      padding-bottom: 40px;
+    }
+    .active {
+      border-bottom: gray solid;
+      font-weight: bold;
+      color:#53d18e;
+    }
+    .dsc{
+      height: 250px;
+    }
+    .underlineh{
+      display: none;
+    }
+    .captionblock{
+      width: 65%;
+      float: left;
+    }
+  }
+  @media screen and (max-width:480px){
+    #headbox1 h1{
+      font-size:32px;
+    }
+    #headbox1 h3{
+      font-size:18px;
+    }
+    .menu{
+      width: 24.8%;
+      list-style: none;
+      margin-top:0px;
+      padding-top:15px;
+      font-size : 16px;
+      height : 70px;
+      display: block;
+      float: right;
+      text-align: center;
+      font-weight: normal;
+    }
+    h1{
+      padding-top: 10px;
+    }
+    #mnbox{
+      height: 70px;
+    }
+    .line{
+      height: 40px;
+    }
+    #ft{
+      height: 70px;
+      font-size: 11px;
+      display: block;
+    }
+    .thin{
+      float: none;
+      margin-top: -6px;
+
+    }
+    .thin2{
+      margin-top: -7px;
+      float: none;
+      display: inline;
+      text-align: center;
+      font-weight: lighter;
+    }
+    #ft strong{
+      margin-top: -6px;
+
+      float: none;
+    }
+    #swbox{
+      width :100%;
+    }
+    .swhalf{
+      float: none;
+      max-width :100%;
+      margin: 0 auto;
+    }
+    .im900{
+      width :100%;
+    }
+    .pfs{
+      width: inherit;
+    }
+    .ifs{
+      width: 290px;
+    }
+    .youtube {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .swscpt{
+      text-align: center;
+      height: 40px;
+    }
+    .active {
+      border-bottom: gray solid;
+      font-weight: bold;
+      color:#53d18e;
+    }
+    .dsc{
+      display: block;
+      height: inherit;
+    }
+    .jcblock{
+      float: left;
+      display: block;
+      margin: 0 auto;
+    }
+    .captionblock{
+      width: 60%;
+      float: left;
+    }
+    .halfcol{
+      width: 100%;
+    }
+    .underlineh{
+      display: inherit;
+    }
+  }
+
+  /* Anims */
+  .effect-fade {
+    opacity : 0;
+    transform : translate(0, 60px);
+    transition : all 700ms;
+  }
+
+  .effect-fade.effect-scroll {
+    opacity : 1;
+    transform : translate(0, 0);
+  }
+
+  /* 「RightToLeft」の動作内容 */
+  @keyframes RightToLeft {
+    0% {
+      opacity: 0;/* 透明 */
+      transform: translateX(300px);/* X軸方向に50px */
+    }
+    100% {
+      opacity: 1;/* 不透明 */
+      transform: translateX(0);
+    }
+  }
+  /* 「RightToLeft」の動作内容 */
+  @keyframes LeftToRight {
+    0% {
+      opacity: 0;/* 透明 */
+      transform: translateX(-300px);/* X軸方向に50px */
+    }
+    100% {
+      opacity: 1;/* 不透明 */
+      transform: translateX(0);
+    }
+  }
+  @keyframes comeon {
+    0% {
+      opacity : 0;
+      transform : translate(0, 10px);
+    }
+    100% {
+      opacity : 1;
+      transform : translate(0, 0);
+    }
+  }
+  @keyframes progress {
+    0% {
+      transform: scale(0, 1);
+      transform-origin: left;
+    }
+    100% {
+      transform-origin: left;
+      transform: scale(1);
+    }
+  }
+  /* 「RightToLeft」を適用する箇所 */
+  .rtl {
+    animation-duration: 1s;/* アニメーション時間 */
+    animation-name: RightToLeft;/* アニメーション名 */
+  }
+  .ltr {
+    animation-duration: 1s;/* アニメーション時間 */
+    animation-name: LeftToRight;/* アニメーション名 */
+  }
+  .onl{
+    animation-duration: 1s;/* アニメーション時間 */
+    animation-name: comeon;/* アニメーション名 */
+  }
+  .onl2{
+    animation-duration: 2.5s;/* アニメーション時間 */
+    animation-name: comeon;/* アニメーション名 */
+  }
+  .prg{
+    display: block;
+    height: 10px;
+    animation-duration: 3s;/* アニメーション時間 */
+    animation-name: progress;/* アニメーション名 */
+  }
